@@ -1,0 +1,24 @@
+{
+  "name": "bigmountain",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/web",
+    "apps/admin",
+    "services/api",
+    "packages/shared"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace @bigmountain/shared && npm run build --workspace @bigmountain/api && npm run build --workspace @bigmountain/web && npm run build --workspace @bigmountain/admin && npm run build:web-dist",
+    "build:web-dist": "node scripts/build-web-dist.js",
+    "check": "npm run build",
+    "test": "node --test test/*.test.js",
+    "dev:api": "npm run dev --workspace @bigmountain/api",
+    "dev:web": "npm run dev --workspace @bigmountain/web",
+    "dev:admin": "npm run dev --workspace @bigmountain/admin"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

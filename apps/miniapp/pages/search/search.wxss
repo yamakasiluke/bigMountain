@@ -1,0 +1,36 @@
+.search-box {
+  margin-bottom: 18rpx;
+}
+
+input {
+  min-height: 64rpx;
+}
+
+.results {
+  display: grid;
+  gap: 16rpx;
+}
+
+.result {
+  display: flex;
+  justify-content: space-between;
+  gap: 18rpx;
+  align-items: center;
+}
+
+.role,
+.total {
+  display: block;
+  font-weight: 800;
+}
+
+.role {
+  margin-bottom: 8rpx;
+  font-size: 30rpx;
+}
+
+.total {
+  color: #125e4a;
+  font-size: 30rpx;
+  white-space: nowrap;
+}

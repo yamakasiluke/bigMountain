@@ -1,0 +1,55 @@
+Being a Chinese citizen changes everything. You have a massive home-field advantage: you don't need a WFOE, a JV, or foreign visas. You can legally own the ICP license and run the Mini Program as an individual (with limits) or as a domestic company (recommended). [1, 2] 
+Here is your streamlined "Native" Startup Plan for 2026:
+## Phase 1: The "Individual" Lean Launch (Fastest Route)
+As a Chinese citizen with a National ID (身份证), you can launch a personal WeChat Mini-Program immediately.
+
+* The Cost: Almost ¥0.
+* The Limit: Personal Mini-Programs cannot include user-generated content (forums/gossip), payment features, or commercial buttons.
+* The Strategy: Build a read-only "Salary Tool" first.
+* Feature: "Search 2026 Tech Salaries."
+   * Data: Manually curate verified data from verified sources (like Maimai screenshots or friends in HR).
+   * Why: This builds your user base without triggering the strict "community" license requirements.
+
+## Phase 2: The "Domestic Company" Upgrade (Real Business)
+To add the "Gossip/Anonymous" features and make money, you eventually need a business license. But for you, this is simple. [3] 
+
+* Registration: Register a domestic company (e.g., a "Tech Consulting" LTD).
+* Cost: ~¥0-500 RMB (many cities offer free registration for local entrepreneurs).
+   * Speed: 3-7 days. [4] 
+* The "Community" License:
+* Once you have the business license, apply for the "Non-Commercial ICP Filing" (ICP Beian).
+   * Crucial Upgrade: Apply for the "Community/Forum" category in the WeChat Mini-Program backend. Note: This is still strict. You may need to show you have a content moderation team. [5] 
+
+## Phase 3: Tech & Compliance (The Native Stack)
+Don't use Western tech. Use the standard domestic stack to save money and avoid blocks.
+
+* Hosting: Tencent Cloud (腾讯云) or Aliyun (阿里云).
+* Pro Tip: Use WeChat Cloud Development (云开发). It effectively gives you a free backend/database for small Mini-Programs and requires zero server maintenance.
+* Identity: Use WeChat Login. It automatically handles the "Real-Name" requirement because every WeChat user is already verified with their bank/ID. You don't need to build your own SMS system initially.
+* Moderation (Critical): Connect to Aliyun Green (内容安全) or Tencent Cloud AMS.
+* Why: It costs pennies per check and automatically filters political/illegal keywords so you don't get shut down by the police.
+
+## Growth Strategy: The "Private Domain" (私域流量)
+Since you can't buy ads on Google/Facebook:
+
+   1. WeChat Groups: Create invite-only groups for "P7/P8 Alibaba Employees" or "ByteDance Commercial Team." Seed your Mini-Program there.
+   2. Xiaohongshu (Little Red Book): Post salary comparisons as images. Put your Mini-Program name in the comments. Do not put links; they will be blocked. [6] 
+
+## Summary Checklist
+
+| Step [6] | Action | Cost (RMB) | Time |
+|---|---|---|---|
+| 1 | Register Personal Mini-Program | ¥0 | 1 Day |
+| 2 | Build "Salary Search" MVP | ¥0 (Self-code) | 2 Weeks |
+| 3 | Register Domestic Company | ~¥500 | 1 Week |
+| 4 | Upgrade to Enterprise Account | ¥300 / year | 3 Days |
+| 5 | Launch "Gossip" Features | (Dev Cost) | Month 2 |
+
+One question to decide your start: Do you know how to code (specifically Vue.js or React)? If yes, you can build the Mini-Program yourself using Uni-app or Taro (cross-platform frameworks popular in China). If not, you will need a technical co-founder.
+
+[1] [https://www.reddit.com](https://www.reddit.com/r/chinalife/comments/1pmugrn/what_website_builders_work_in_china_without/)
+[2] [https://www.goclickchina.com](https://www.goclickchina.com/blog/key-points-to-consider-while-building-your-chinese-web-presence/)
+[3] [https://acadiaadvisory.com](https://acadiaadvisory.com/licensing/icp-licensing)
+[4] [https://baoziinchina.com](https://baoziinchina.com/how-to-set-up-wechat/)
+[5] [https://fdichina.com](https://fdichina.com/blog/china-startup-registration/)
+[6] [https://www.china-briefing.com](https://www.china-briefing.com/news/china-mini-programs-app-registration-end-march-2024/)

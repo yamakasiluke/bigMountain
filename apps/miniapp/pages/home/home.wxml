@@ -1,0 +1,28 @@
+<view class="page">
+  <view class="header">
+    <text class="eyebrow">China-first salary intelligence</text>
+    <text class="title">BigMountain</text>
+  </view>
+
+  <view class="metrics">
+    <view class="metric card">
+      <text class="number">3</text>
+      <text class="muted">Companies</text>
+    </view>
+    <view class="metric card">
+      <text class="number">4</text>
+      <text class="muted">Salary records</text>
+    </view>
+    <view class="metric card">
+      <text class="number">2</text>
+      <text class="muted">Open jobs</text>
+    </view>
+  </view>
+
+  <button class="primary" bindtap="goSearch">Search salaries</button>
+
+  <view class="card gate">
+    <text class="gate-title">Anonymous posts and reviews are gated</text>
+    <text class="muted">Enable after company setup, ICP/Beian, content safety checks, and human moderation are ready.</text>
+  </view>
+</view>
